@@ -5,7 +5,6 @@ import numpy as np
 from pandas import DataFrame
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
-from scipy.spatial.distance import euclidean
 from sklearn.metrics.pairwise import euclidean_distances
 from typing import List
 import random
