@@ -3,7 +3,8 @@
 
 ## Overview
 
-This project contains an implementation of a classifier that uses a nearest neighbor approach with a specified radius. It reads data from CSV files for training, validation, and testing. The classifier is trained and validated to find the optimal radius and then makes predictions on the test data using the optimal radius. Finally, the classification accuracy is calculated and printed.
+The Nearest Neighbor Radius (NNR) Classifier is a variation of the K-Nearest Neighbors (KNN) classifier. Instead of considering the majority vote within the K nearest neighbors of an instance, the NNR classifier inspects all the instance's neighbors within a given radius. It then assigns a label based on the majority vote of the neighbors within the radius. 
+
 
 ## Usage
 
